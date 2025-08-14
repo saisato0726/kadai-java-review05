@@ -84,7 +84,7 @@ public class Review05 {
 			try {
 				BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 	            String line = key.readLine(); // 1行取得したのを
-	            return Integer.parseInt(line); // 数値変換して返す
+	            return Integer.parseInt(line); // 数値に変換して返す
 			} catch (NumberFormatException e) {
 				System.err.println("数字で入力してください。");
 			} catch (IOException e) {
