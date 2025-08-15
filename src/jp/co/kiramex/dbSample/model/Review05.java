@@ -25,7 +25,7 @@ public class Review05 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost/kadaidb?useSSL=false&allowPublicKeyRetrieval=true",
                     "root",
-                    "saiharu0308");
+                    "password");
 			
 			//DBとの窓口preparedStatementオブジェクトの作成
 			String sql = "SELECT * FROM person WHERE id = ?";

@@ -25,7 +25,7 @@ public class DbConnectSample03 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost/world?useSSL=false&allowPublicKeyRetrieval=true",
 					"root",
-					"saiharu0308"
+					"password"
 			);
 			
 			//4.DBとやり取りする窓口（statementオブジェクト）の作成

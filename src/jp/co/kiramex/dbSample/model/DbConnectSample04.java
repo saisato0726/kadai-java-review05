@@ -25,7 +25,7 @@ public class DbConnectSample04 {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost/world?useSSL=false&allowPublicKeyRetrieval=true",
                     "root",
-                    "saiharu0308");
+                    "password");
 
             // 4. DBとやりとりする窓口（PreparedStatementオブジェクト）の作成
             String sql = "SELECT * FROM country WHERE Name = ?";    // ← 修正
